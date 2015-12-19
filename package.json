@@ -13,19 +13,11 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-typescript": "^2.10.0",
+    "typescript": "^1.7.5",
     "shelljs": "^0.5.3"
   },
   "dependencies": {
-    "angular2": "^2.0.0-beta.0",
-    "courtroom": "git+ssh://git@github.com/SiAdcock/courtroom.git",
     "pointless-utils": "git+ssh://git@github.com/SiAdcock/pointless-utils.git",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.13",
-    "koa": "^1.1.2",
-    "reflect-metadata": "^0.1.2",
-    "rxjs": "^5.0.0-beta.0",
-    "systemjs": "^0.19.9",
-    "typescript": "^1.7.5",
-    "zone.js": "^0.5.10"
+    "koa": "^1.1.2"
   }
 }
