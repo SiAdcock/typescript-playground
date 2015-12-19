@@ -1,5 +1,3 @@
-/// <reference path="node_modules/pointless-utils/typings/index.d.ts" />
-
 'use strict';
 
 declare function require(name:string);
@@ -8,7 +6,7 @@ const koa = require('koa');
 const app = koa();
 
 app.use(function *() {
-  this.body = `<h1>${_.shoutify('Hello')}</h1>`;
+  this.body = `<h1>${_.shoutify('hello')}</h1>`;
   return 'hello';
 });
 
