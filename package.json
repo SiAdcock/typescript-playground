@@ -14,5 +14,8 @@
     "gulp": "^3.9.0",
     "gulp-typescript": "^2.10.0",
     "shelljs": "^0.5.3"
+  },
+  "dependencies": {
+    "courtroom": "git+ssh://git@github.com/SiAdcock/courtroom.git"
   }
 }
