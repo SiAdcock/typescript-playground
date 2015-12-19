@@ -3,13 +3,16 @@
   <title>Typescript playground</title>
 </head>
 <body>
+Max five letters: <input type="text">
 <script src="node_modules/systemjs/dist/system.js"></script>
 <script>
   System.config({
-    baseURL: '/build'
+    map: {
+      courtroom: 'node_modules/courtroom/src/courtroom/courtroom'
+    }
   });
 
-  System.import('courtroom.js');
+  System.import('build/courtroom.js');
 </script>
 </body>
 </html>

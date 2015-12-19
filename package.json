@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "courtroom": "git+ssh://git@github.com/SiAdcock/courtroom.git",
+    "koa": "^1.1.2",
     "systemjs": "^0.19.9",
     "typescript": "^1.7.5"
   }
