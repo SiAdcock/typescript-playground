@@ -9,12 +9,13 @@ gulp.task('clean', () => {
   shell.rm('-rf', 'build');
 });
 gulp.task('ts', () => {
-  return gulp.src('src/**/*.ts')
+  return gulp.src(['**/*.ts', '!node_modules/**'])
     .pipe(ts({
-      module: 'commonjs'
+      module: 'commonjs',
+      target: 'ES6'
     }))
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest(__dirname));
 });
 gulp.task('watch', () => {
-  return gulp.watch('src/**/*.ts', ['ts']);
+  return gulp.watch('**/*.ts', ['ts']);
 });
