@@ -11,3 +11,6 @@ gulp.task('ts', () => {
     .pipe(ts())
     .pipe(gulp.dest('build'));
 });
+gulp.task('watch', () => {
+  return gulp.watch('src/**/*.ts', ['ts']);
+});
