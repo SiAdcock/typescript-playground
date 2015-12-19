@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Typescript playground</title>
+</head>
+<body>
+<script src="node_modules/systemjs/dist/system.js"></script>
+<script>
+  System.config({
+    baseURL: '/build'
+  });
+
+  System.import('courtroom.js');
+</script>
+</body>
+</html>

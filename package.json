@@ -16,6 +16,8 @@
     "shelljs": "^0.5.3"
   },
   "dependencies": {
-    "courtroom": "git+ssh://git@github.com/SiAdcock/courtroom.git"
+    "courtroom": "git+ssh://git@github.com/SiAdcock/courtroom.git",
+    "systemjs": "^0.19.9",
+    "typescript": "^1.7.5"
   }
 }
