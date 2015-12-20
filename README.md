@@ -5,6 +5,7 @@
 This project requires [Gulp](http://gulpjs.com/) to be installed globally on your machine.
 
 ```
+$ npm install gulp -g
 $ npm install
 ```
 
